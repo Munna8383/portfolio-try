@@ -76,6 +76,13 @@ nav a{
     max-width: 500px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
 .about{
     padding: 130px;
     background-color: antiquewhite;
@@ -91,5 +98,48 @@ nav a{
     text-align: justify;
     color: rgb(72, 68, 63);
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-decription{
+ padding: 30px 150px;
 
+}
+.skills-container{
+    display: flex;
+}
+.skills{
+    padding: 30px;
+    gap: 10px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+.title-description{
+    color: rgb(103, 85, 63);
+}
+
+/* resume description */
+.resume-coloum-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-description{
+    color: rgb(103, 85, 63);
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
 /* footer style */
