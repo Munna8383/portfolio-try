@@ -143,3 +143,27 @@ main section{
     margin-top: 50px;
 }
 /* footer style */
+
+footer{
+    display: flex;
+    background-color: aliceblue;
+    gap: 100px;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.social-links a img{
+    margin-left: 10px;
+
+}
+.footer-coloum{
+    width: 50%;
+}
+form input,textarea{
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(156, 181, 192);
+}
